@@ -9,7 +9,6 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
-	printf("%i is zero\n", i);
 
-	return (0);
+	return (i);
 }
