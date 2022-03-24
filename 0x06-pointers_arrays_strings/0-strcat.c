@@ -1,21 +1,4 @@
 #include "main.h"
-
-/**
- * length - finds the length of array
- * @i: first parameter
- * Return: an int
- */
-
-int length(char *i)
-{
-	int s = 0;
-
-	while (i[s] != '\0')
-	{
-		s++;
-	}
-	return (s);
-}
 /**
  * _strcat - concatenate two strings
  * @dest: firdt parameter
