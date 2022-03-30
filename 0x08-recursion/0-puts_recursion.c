@@ -1,13 +1,20 @@
 #include "main.h"
-/*
- * prints a string
- * Return: \n
+/**
+ * _puts_recursion - prints a string
+ *
+ * @s: string
  */
+
 
 void _puts_recursion(char *s)
 {
-	_puts_recursion("Puts with recursion\n");
+	if (*s != '\10')
+	{
+		_putchar(*s);
+		_puts_recursion(++s);
+	}
+	else
+		_putchar(10);
 
-	return (0);
 }
 
